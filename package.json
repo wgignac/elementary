@@ -1,0 +1,37 @@
+{
+  "name": "mathjax-elementary",
+  "version": "1.0",
+  "description": "",
+  "keywords": [
+    "mathml",
+    "mathjax"
+  ],
+  "maintainers": [
+    "krautzource"
+  ],
+  "bugs": {
+    "url": "https://github.com/krautzource/mathjax-elementary"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krautzource/mathjax-elementary.git"
+  },
+  "dependencies": {
+    "jsdom": "^7.0.2"
+  },
+  "main": "mathjax-elementary.js",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ],
+      "no-underscore-dangle": 0
+    }
+  }
+}
