@@ -60,3 +60,7 @@ We can set border-collapse and then use borders? Check with Davide if problems l
     </mtr>
   </mtable>
 </math>
+
+## general open problems
+
+* transferring all general attributes from a node to its replacements
