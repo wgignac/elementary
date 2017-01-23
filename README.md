@@ -2,7 +2,7 @@
 
 A converter for "elementary" MathML which produces MathML supported by MathJax.
 
-Based on work by David Carlisle (mml3mml2, ctop) and Christian Perfect (ctop.js, content-mathml.js).
+Based on work Christian Perfect (ctop.js, content-mathml.js) and inspired by David Carlisle's mml3mml2, ctop.
 
 
 ## rough ideas
