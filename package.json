@@ -1,37 +1,29 @@
 {
   "name": "mathjax-elementary",
-  "version": "1.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A converter for 'elementary' MathML to MathJax-supported MathML",
   "keywords": [
     "mathml",
+    "elementary MathML",
     "mathjax"
   ],
   "maintainers": [
-    "krautzource"
+    "krautzource UG <info@krautzource.com> (krautzource.com)"
   ],
   "bugs": {
     "url": "https://github.com/krautzource/mathjax-elementary"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/krautzource/mathjax-elementary.git"
   },
-  "dependencies": {
-    "jsdom": "^7.0.2"
+  "main": "lib/mathjax-elementary.js",
+  "scripts": {
+    "test": "tape test/*.js"
   },
-  "main": "mathjax-elementary.js",
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ],
-      "no-underscore-dangle": 0
-    }
+  "devDependencies": {
+    "jsdom": "^9.11.0",
+    "tape": "^4.6.3"
   }
 }
