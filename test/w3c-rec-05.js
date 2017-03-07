@@ -3,7 +3,7 @@ const test = require('./setup.js').test;
 
 // https://www.w3.org/Math/testsuite/build/main/Topics/ElementaryMathExamples/rec3-ElementaryMathExamples-05-simple.xhtml
 
-tape('w3c REC Examples 05', function(t) {
+tape('MathML Test Suite: REC Examples 05', function(t) {
     t.plan(1);
 
     let input = `<math display="block"> <mstack> <mscarries> <mscarry crossout="updiagonalstrike"><none/></mscarry> <menclose notation="bottom"> <mn>10</mn> </menclose> </mscarries> <mn>52</mn> <msrow> <mo>-</mo> <mn> 7</mn> </msrow> <msline/> <mn>45</mn> </mstack>`;
